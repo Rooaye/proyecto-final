@@ -125,7 +125,7 @@ p::-moz-selection {
     background-color: #00ffff56;
 }
 .map iframe{
-    margin: 100px;
+    margin: 50px;
 }
 .hour{
     margin-top: 150px;
@@ -136,7 +136,10 @@ footer{
     background-color:#333;
     text-align: center;
     color: orange;
-    padding: 20px;
+    padding: 100px;
+    width: 100%;
+    
+    min-height: 70px;
 }
 ul{
     list-style: none;
