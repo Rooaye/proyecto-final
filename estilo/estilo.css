@@ -21,6 +21,7 @@ body {
     margin: 10px;
     border-radius: 5px;
     text-shadow: 0 0 3px #ff840075;
+    
 }
 
 .nav-link:hover {
@@ -58,11 +59,14 @@ h2 {
     border-radius: 5px;
 }
 
+h3{
+    text-align: center;
+    color: #ff8200;
+}
+
 .row{
     margin: 1px 10px 12px 10px;
     padding:0 10px 0 10px;
-    background-color:coral;
-    border: solid 3px black;
     justify-content: center;
 
 }
@@ -71,7 +75,7 @@ h2 {
 div.card{
     padding:20px;
     margin: 10px;
-    background-color: rebeccapurple ;
+    background-color:#66e6e6;
 }
 .card-img-top{
     
@@ -107,5 +111,49 @@ p::-moz-selection {
 
 .productos{
     height: auto;
-    background-color: yellow;
+    /*background-color: yellow;*/
+}
+.container{
+    border-style:dotted ;
+    padding: 50px;
+    margin-bottom:20px;
+}
+.container input:hover{
+    background-color: #00ffff56;
+}
+.container textarea:hover{
+    background-color: #00ffff56;
+}
+.map iframe{
+    margin: 100px;
+}
+.hour{
+    margin-top: 150px;
+    
+    
+}
+footer{
+    background-color:#333;
+    text-align: center;
+    color: orange;
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+.redes{
+    font-size: 25px;
+    letter-spacing: 10px;
+    color: #00ffff;
+    text-align: center;
+    padding: 10px;
+}
+.copy{
+    text-align: center;
+    text-transform: capitalize;
+}
+footer.nav-link:hover{
+    transition: 2s;
+    font-size: 22px;
+    margin: 50px;
 }
