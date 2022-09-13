@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ff8200;
+    background-image: linear-gradient(45deg, rgba(245, 156, 61, 0.9921568627) 50%, #66e6e6 96%);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.d-flex{
+    margin: 2px 10px 2px auto;
+}
+
+.nav-link {
+    color: #00ffff !important;
+    text-transform: capitalize;
+    margin: 10px;
+    border-radius: 5px;
+    text-shadow: 0 0 3px #ff840075;
+}
+
+.nav-link:hover {
+    transition: 2s;
+    font-size: 22px;
+}
+
+.btn-outline-success {
+    color: #00ffff;
+    border-color: #ff8200;
+}
+.btn-outline-success:hover{
+    background-color: #00ffff;
+    color: rgb(44, 44, 44);
+    transition: 2s;
+}
+.btn-primary {
+    background-color: #333;
+    border: none;
+
+}
+.btn-primary:hover {
+    background-color: #00ffff;
+    color: rgb(44, 44, 44);
+    transition: 2s;
+}
+
+h2 {
+    background-color: rgba(51, 51, 51, 0.514);
+    text-align: center;
+    text-transform: capitalize;
+    color: #00ffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.row{
+    margin: auto 10px 12px 10px;
+    padding: 20px;
+    background-color: chartreuse;
+
+}
+div.card{
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rebeccapurple ;
+}
+.card-img-top{
+    
+}
+
+.al {
+    background-image: url(../assets/moro/combo-moro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.ar h3 {
+    text-align: center;
+    color: #00ffff;
+}
+
+.ar h3::first-letter {
+    color: #ff8200;
+}
+p::-moz-selection {
+    color: #ff8200;
+    background-color: #333;
+    }
+
+.productos{
+    height: auto;
+    
+}
