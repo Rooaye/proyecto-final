@@ -75,8 +75,13 @@ section .card-img-top {
   transition: cubic-bezier(1, 0, 0, 1) 0.2s;
   top: -120px;
   width: 100%;
-  height: 300px;
+  /*ancho 100%*/
+  /*height: ($alto*2)+200;
+  /*altura 400px*/
   display: block;
+}
+section .card-body {
+  text-align: center;
 }
 section .card-img-top:hover {
   transform: scale(1.2);
@@ -86,6 +91,7 @@ section .al {
   background-size: cover;
   background-position: center;
   height: 400px;
+  /*altura 400px*/
 }
 section .ar h3 {
   text-align: center;
@@ -107,6 +113,7 @@ section .productos {
 }
 section .map iframe {
   margin: 50px;
+  /*margen 50px*/
 }
 section .hour {
   margin-top: 150px;
@@ -116,6 +123,7 @@ section .hour {
   border-style: dotted;
   padding: 50px;
   margin-bottom: 20px;
+  /*margen bottom 20px*/
 }
 .container .container input:hover {
   background-color: rgba(0, 255, 255, 0.337254902);
@@ -129,7 +137,9 @@ footer {
   text-align: center;
   color: #ff8200;
   padding: 100px;
+  /*padiing 100px*/
   width: 100%;
+  /*ancho 100%*/
   min-height: 70px;
 }
 footer ul {
@@ -150,6 +160,7 @@ footer footer.nav-link:hover {
   transition: 2s;
   font-size: 22px;
   margin: 50px;
+  /*margen 50px*/
 }
 
 /*# sourceMappingURL=estilo.css.map */
