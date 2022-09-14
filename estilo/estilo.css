@@ -56,42 +56,51 @@ h2 {
   border-radius: 5px;
 }
 
+section h1 {
+  text-align: center;
+  text-shadow: 2px 2px #ff8200;
+}
 section h3 {
   text-align: center;
-  color: #ff8200;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #00ffff;
 }
 section .row {
   margin: 1px 10px 12px 10px;
-  padding: 0 10px 0 10px;
+  padding: 15px 10px 0 10px;
   justify-content: center;
 }
 section div.card {
   padding: 20px;
   margin: 10px;
-  background-color: #66e6e6;
+  background-color: rgba(102, 230, 230, 0.368627451);
 }
 section .card-img-top {
   left: 20px;
-  transition: cubic-bezier(1, 0, 0, 1) 0.2s;
+  transition: cubic-bezier(1, 0, 0, 1);
+  transition-duration: 1s;
   top: -120px;
   width: 100%;
   /*ancho 100%*/
-  /*height: ($alto*2)+200;
+  height: auto;
   /*altura 400px*/
   display: block;
-}
-section .card-body {
-  text-align: center;
 }
 section .card-img-top:hover {
   transform: scale(1.2);
 }
+section .card-body {
+  text-align: center;
+}
 section .al {
-  background-image: url(../assets/moro/combo-moro.jpg);
-  background-size: cover;
+  background-image: url(../assets/moro/tratamiento-moroccanoil-grande-.jpg);
   background-position: center;
+  background-size: cover;
   height: 400px;
-  /*altura 400px*/
+  resize: both;
 }
 section .ar h3 {
   text-align: center;
@@ -111,12 +120,17 @@ section .productos {
   height: auto;
   /*background-color: yellow;*/
 }
-section .map iframe {
-  margin: 50px;
-  /*margen 50px*/
+section .map {
+  display: grid;
+  place-items: center;
+}
+section iframe {
+  width: 100%;
+  height: 600px;
 }
 section .hour {
-  margin-top: 150px;
+  text-align: center;
+  margin: 5px;
 }
 
 .container {
@@ -125,10 +139,12 @@ section .hour {
   margin-bottom: 20px;
   /*margen bottom 20px*/
 }
-.container .container input:hover {
+
+.container input:hover {
   background-color: rgba(0, 255, 255, 0.337254902);
 }
-.container .container textarea:hover {
+
+.container textarea:hover {
   background-color: rgba(0, 255, 255, 0.337254902);
 }
 
@@ -159,8 +175,18 @@ footer .copy {
 footer footer.nav-link:hover {
   transition: 2s;
   font-size: 22px;
-  margin: 50px;
-  /*margen 50px*/
+  margin: 50%;
+}
+footer .nav-link {
+  color: #00ffff !important;
+  text-transform: capitalize;
+  margin: 10px;
+  border-radius: 5px;
+  text-shadow: 0 0 3px rgba(255, 132, 0, 0.4588235294);
+}
+footer .nav-link:hover {
+  transition: 2s;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
