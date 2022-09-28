@@ -290,6 +290,7 @@ section .hora {
 
 #carouselExampleControls {
   transition-duration: 2s;
+  height: auto;
 }
 #carouselExampleControls .cards-wrapper {
   display: flex;
