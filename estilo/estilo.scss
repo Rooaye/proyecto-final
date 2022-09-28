@@ -82,7 +82,7 @@ h2 {
 }
 
 section {
-    h1 {
+    h4 {
         text-align: center;
         text-shadow: 2px 2px $color2;
     }
@@ -99,9 +99,8 @@ section {
 
     }
 
-    .error{
-        font-size: 500px;
-    }
+    
+    
 
 
     .row {
@@ -209,6 +208,7 @@ section {
         font-size: large;
         margin-bottom: 20px;
         margin-top: 15px;
+        padding: 60px;
     }
 
 }
