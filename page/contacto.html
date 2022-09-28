@@ -49,34 +49,63 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control mr-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
 
         </div>
     </nav>
     <!-- finaliza barra navegacion-->
     <!-- inicio de form contacto -->
-    <h2>Formulario</h2>
-    <div class="container">
+    <h2>Contacto</h2>
+    <div class="container contacto">
 
-        <p>The form below contains two input elements; one of type text and one of type password:</p>
-        <form action="/action_page.php">
-            <div class="form-group">
-                <label for="usr">Name:</label>
-                <input type="text" class="form-control" id="usr" name="username">
-            </div>
-            <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" name="password">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+        <fieldset>
+
+            <form class="row g-3 " method="post">
+                <div class="col-6 mt-4">
+                    <label for="inputAddress2" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control fw-bold" id="inputAddress2"
+                        placeholder="Ingrese su nombre y apellido">
+                </div>
+                <div class="col-md-4 mt-4">
+                    <label for="inputState" class="form-label">Como nos conociste</label>
+                    <select id="inputState" class="form-select fw-bold">
+                        <option selected>Selecciona una opcion</option>
+                        <option>Redes</option>
+                        <option>Recomendado por amigos</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="col-6 mt-4">
+                    <label for="inputAddress" class="form-label">Numero de telefono</label>
+                    <input type="text" class="form-control fw-bold " id="inputAddress"
+                        placeholder="Ingrese su numero de telefono">
+                </div>
+                <div class="col-md-6 mt-4">
+                    <label class="form-check-label" for="gridCheck">
+                        Deseas recibir novedades por Email?
+                    </label>
+                    <input class="form-check-input col-3" type="checkbox" id="gridCheck">
+                    <input type="email" class="form-control fw-bold" id="inputEmail4" placeholder="Ingrese su Email">
+
+
+                </div>
+
+                <div class="col-8 mt-4 form-floating">
+                    <label for="floatingTextarea2"> Dejanos tu comentario...</label>
+                    <textarea class="form-control fw-bold " placeholder="Comentario..." id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn  btn-primary fw-bold mt-4">Enviar</button>
+                    <input class="btn  btn-primary fw-bold mt-4" type="reset" value="Borrar">
+                </div>
+
+
+            </form>
+        </fieldset>
     </div>
 
     <!-- cierre de form contacto -->
@@ -105,15 +134,15 @@
                 </ul>
             </div>
         </div>
-            <div class="redes">
+        <div class="redes">
             <li class="fa-brands fa-facebook"></li>
             <li class="fa-brands fa-whatsapp"></li>
             <li class="fa-solid fa-envelope"></li>
             <li class="fa-solid fa-location-dot"></li>
         </div>
         <div class="copy">
-        <p>2022 Copyright</p>
-    </div>
+            <p>2022 Copyright | Todos los derechos reservados.</p>
+        </div>
 
     </footer>
     <!--footer fin-->

@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--descripcion-->
-    <meta name="description" content="Este es el sitio web de mi Distribuidora de peluquerias,encontraras precios,imagenes productos varios, informacion y mas... ">
-    <meta name="keywords"  content="Productos,ubicacion,info,contacto,redes">
+    <meta name="description"
+        content="Este es el sitio web de mi Distribuidora de peluquerias,encontraras precios,imagenes productos varios, informacion y mas... ">
+    <meta name="keywords" content="Productos,ubicacion,info,contacto,redes">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -25,7 +26,7 @@
     <!--inicia barra navegacion-->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="../page/nosotros.html">Kiosquito Peluquero</a>
+        <a class="navbar-brand" href="#">Kiosquito Peluquero</a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -52,16 +53,132 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control mr-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
 
         </div>
     </nav>
     <!-- finaliza barra navegacion-->
 
+    <!--INICIA CAROUSEL-->
+    <div id="demo" class="carousel slide col" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner sli">
+            <p class="posit">¡Los mejores productos al mejor precio!</p>
+            <div class="carousel-item active imgnormalizada justify-content-center">
+
+                <img src="./assets/moro/moroccanoil-blow.jpg" class="img-carousel img-fluid rounded-4" alt="imgportada">
+                <img src="./assets/moro/moroccanoil-light.jpg" class="img-carousel img-fluid rounded-4" alt="imgportada">
+                <img src="./assets/moro/crema-modeladora-rizos1.jpg" class="img-carousel  img-fluid rounded-4" alt="imgportada">
+                <img src="./assets/moro/moroccanoil-mascara-hydration-.jpg" class="img-carousel img-fluid rounded-4"
+                    alt="imgportada">
+            </div>
+            <div class="carousel-item  imgnormalizada justify-content-center">
+                <img src="./assets/schwarzkof/combo-ric.jpg" class="img-carousel rounded-4" alt="imgportada">
+                <img src="./assets/schwarzkof/editado-shampoo-silver-pequeno1.jpg" class="img-carousel rounded-4"
+                    alt="imgportada">
+                <img src="./assets/schwarzkof/schwarzkopf-osis-freeze.jpg" class="img-carousel rounded-4"
+                    alt="imgportada">
+                <img src="./assets/schwarzkof/twister.jpg" class="img-carousel rounded-4" alt="imgportada">
+            </div>
+            <div class="carousel-item imgnormalizada justify-content-center">
+                <img src="./assets/herrami/planchita22.jpg" class="img-carousel rounded-4" alt="imgportada">
+                <img src="./assets/uñas/opi.jpg" class="img-carousel rounded-4" alt="imgportada">
+                <img src="./assets/uñas/cabina-duga-nueva.jpg" class="img-carousel rounded-4" alt="imgportada">
+                <img src="./assets/herrami/secador.jpg" class="img-carousel rounded-4" alt="imgportada">
+
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon "></span>
+        </a>
+
+    </div>
+    <!--FINALIZA CAROUSEL-->
+
+    <!--inicia categorias-->
+    <h2>Destacadas</h2>
+    <section class="container ">
+
+        <!-- CARDS -->
+        <div class="container-fluid ar categoria">
+            <div class="row">
+                <div class="card  col-sm-6 col-md-4 col-lg-3" data-aos="fade-right">
+                    <img src="./assets/moro/combo-moro.jpg" class="rounded-circle" alt="destacadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Capilar</h5>
+                        <div class="card-text">
+                            <ul class="lista">
+                                <li>Shampoo</li>
+                                <li>Acondicionador</li>
+                                <li>aceites </li>
+                                <li>mascarillas</li>
+                            </ul>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card  col-sm-6 col-md-4 col-lg-3" data-aos="fade-down">
+                    <img src="./assets/herrami/combo-remington-21-f.jpg" class="rounded-circle" alt="destacadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Accesorios</h5>
+                        <div class="card-text">
+                            <ul class="lista">
+                                <li>Secadores</li>
+                                <li>Planchitas</li>
+                                <li>Ruleros</li>
+                                <li>Tijeras</li>
+                            </ul>
+                            <a href="./page/productos.html" class="btn btn-primary ">Ver mas</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="fade-left">
+                    <img src="./assets/uñas/infinite-24.jpg" class="rounded-circle" alt="destacadas">
+                    <div class="card-body">
+                        <h5 class="card-title">Uñas y pies</h5>
+                        <div class="card-text">
+                            <ul class="lista">
+                                <li>Cabinas</li>
+                                <li>limas</li>
+                                <li>Esmaltes</li>
+                                <li>Utencillos</li>
+                            </ul>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!--fin categoria-->
+
     <!--inicia productos-->
-    <h2>Cuidado Capilar</h2>
+    <h2>Productos varios</h2>
     <section class="productos conteiner-fluid ar">
         <div class="row">
             <div class="card  col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
@@ -84,7 +201,6 @@
             </div>
 
 
-
             <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
                 <img class="card-img-top" src="./assets/combo-detox-.jpg" alt="productos">
                 <div class="card-body">
@@ -95,189 +211,139 @@
             </div>
 
 
-
             <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/moro/combo-moro.jpg" alt="productos">
+                <img class="card-img-top" src="./assets/uñas/limas.jpg" alt="productos">
                 <div class="card-body">
-                    <h4 class="card-title">Moroccanoil</h4>
-                    <p class="card-text"><strong>Combo-</strong>Shampoo & Acondicionador-Aceite.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/wella/combo-grande-brilliance-.jpg" alt="productos"
-                    style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Wella</h4>
-                    <p class="card-text"><strong>Combo-</strong>Shampoo & Acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/schwarzkof/combo-ric.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">Schwarzkof</h4>
-                    <p class="card-text"><strong>Combo-</strong>Ric.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top"
-                    src="./assets/schwarzkof/acondicionador1-dfa27df4c66d0dfa1315404846756137-480-0.jpg"
-                    alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">Schwarzkof</h4>
-                    <p class="card-text">Acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/silver-editado1.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">Loreal</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/combo-detox-.jpg" alt="productos" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Argan</h4>
-                    <p class="card-text">Mascara Capilar.</p>
+                    <h4 class="card-title">Jessamy Lima </h4>
+                    <p class="card-text"><strong>Combo- </strong>4 Limas Recta 100/180.</p>
                     <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
 
 
             <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/shampoo-editado-loreal.jpg" alt="productos">
+                <img class="card-img-top" src="./assets/uñas/infinite-24.jpg" alt="productos" style="width:100%">
                 <div class="card-body">
-                    <h4 class="card-title">Igora</h4>
-                    <p class="card-text">Tintura</p>
+                    <h4 class="card-title">O.P.I</h4>
+                    <p class="card-text"><strong>Combo-</strong>24 Infinit Shine.</p>
                     <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
-
 
 
             <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/metaldetox.jpg" alt="productos">
+                <img class="card-img-top" src="./assets/uñas/opi.jpg" alt="productos">
                 <div class="card-body">
-                    <h4 class="card-title">Moroccanoil</h4>
-                    <p class="card-text">Tratamiento Capilar.</p>
+                    <h4 class="card-title">O.P.I</h4>
+                    <p class="card-text"><strong>Chip Skipe-</strong>Preventor.</p>
                     <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
 
 
 
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/moro/hair_hydrating_conditioner.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">HAN</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
 
 
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/wella/acondicionador-rojo-.jpg" alt="productos"
-                    style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Argan</h4>
-                    <p class="card-text">Mascara Capilar.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/schwarzkof/fltainer-.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">HAN</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/schwarzkof/osis-dut-.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">HAN</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right"> 
-                <img class="card-img-top" src="./assets/blond-cool-.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">HAN</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/moro/hair_hydrating_conditioner.jpg" alt="productos">
-                <div class="card-body">
-                    <h4 class="card-title">HAN</h4>
-                    <p class="card-text">Shampoo y acondicionador.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            <div class="card col-sm-6 col-md-4 col-lg-3" data-aos="flip-right">
-                <img class="card-img-top" src="./assets/wella/acondicionador-rojo-.jpg" alt="productos"
-                    style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">Argan</h4>
-                    <p class="card-text">Mascara Capilar.</p>
-                    <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-
-
-
-            
-
-
-
-            
-
-
-
-            
         </div>
     </section>
     <!--productos fin -->
-    
-    
-    
+
+    <!--inicia carousel multi-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <h2>Novedades</h2>
+            <div class="carousel-item active">
+
+                <div class="cards-wrapper">
+                    <div class="card col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/combo-detox-.jpg" alt="multi" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Loreal</h4>
+                            <p class="card-text">combo-detox-.</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/moro/moroccanoil-light.jpg" alt="multi"
+                            style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Moroccanoil</h4>
+                            <p class="card-text">Aceite Capilar.</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/herrami/tijera.jpg" alt="multi" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Royal</h4>
+                            <p class="card-text">Tijera cut entresacar 5 1/2".</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/uñas/infinite-24.jpg" alt="multi" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">O.P.I</h4>
+                            <p class="card-text">Set x24 Esmaltes "Infinit Shine".</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/silver-editado1.jpg" alt="multi" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Loreal</h4>
+                            <p class="card-text">Mascara Capilar Silver.</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block col-sm-6 col-md-3 col-lg-3">
+                        <img class="card-img-top" src="./assets/wella/acond-brilliance-chico-.jpg" alt="multi"
+                            style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Wella</h4>
+                            <p class="card-text">Mascara Capilar Color Brillante.</p>
+                            <a href="./page/productos.html" class="btn btn-primary">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--fin carousel multi-->
+
+    <!--medios de pagos-->
+    <main class="container pagos">
+        <!-- INFO DE MEDIOS DE PAGO -->
+        <div class="bg-white rounded-5 title-mp text-center mt-4">
+            <div class="p-4">
+                <h1>Medios de pago y promociones</h1>
+                <div>Contamos con los mejores medios de pago para que tengas a mano muchas alternativas para
+                    pagar tus compras.</div>
+                <div> Podes abonar con tarjetas de credito y debito Visa, Mastercard o American Express mediante Mercado
+                    pago.</div>
+                <div>
+                    <img class="img-fluid" src="./assets/logo_pagos.jpg" width="400" height="200"
+                        alt="Medios de pago">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--medios de pagos-->
 
     <!--footer inicia-->
     <footer>
@@ -303,15 +369,15 @@
                 </ul>
             </div>
         </div>
-            <div class="redes">
+        <div class="redes">
             <li class="fa-brands fa-facebook"></li>
             <li class="fa-brands fa-whatsapp"></li>
             <li class="fa-solid fa-envelope"></li>
             <li class="fa-solid fa-location-dot"></li>
         </div>
         <div class="copy">
-        <p>2022 Copyright</p>
-    </div>
+            <p>2022 Copyright | Todos los derechos reservados.</p>
+        </div>
 
     </footer>
     <!--footer fin-->
