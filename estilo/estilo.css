@@ -111,8 +111,7 @@ section .al {
   border-bottom-right-radius: 25px;
   background-position: center;
   background-size: cover;
-  height: 600px;
-  resize: both;
+  height: 750px;
 }
 section .ar h3 {
   padding-top: 0;
@@ -123,6 +122,15 @@ section .ar h3 {
           text-decoration-style: wavy;
   -webkit-text-decoration-color: #ff8200;
           text-decoration-color: #ff8200;
+}
+section .ar p {
+  margin-left: 40px;
+}
+section .nosotros {
+  font-weight: bold;
+  padding: 50px 250px 70px 250px;
+  font-style: oblique;
+  font-size: 20px;
 }
 section .ar h3::first-letter {
   color: #ff8200;
