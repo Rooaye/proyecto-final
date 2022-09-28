@@ -367,6 +367,9 @@ section {
     textarea:hover {
         background-color: #ad9072;
     }
+    p{
+        margin: 60px;
+    }
 
 }
 
@@ -448,8 +451,8 @@ section {
 footer {
 
     padding: 20px;
-
-    min-height: 70px;
+    
+    min-height: 100px;
     background-color: $color3;
     text-align: center;
     color: $color2;

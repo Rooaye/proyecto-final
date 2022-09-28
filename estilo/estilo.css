@@ -295,6 +295,9 @@ section .hora {
 .contacto textarea:hover {
   background-color: #ad9072;
 }
+.contacto p {
+  margin: 60px;
+}
 
 #carouselExampleControls {
   transition-duration: 2s;
@@ -350,7 +353,7 @@ section .hora {
 
 footer {
   padding: 20px;
-  min-height: 70px;
+  min-height: 100px;
   background-color: #333;
   text-align: center;
   color: #ff8200;
