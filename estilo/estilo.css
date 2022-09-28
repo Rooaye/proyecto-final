@@ -71,6 +71,9 @@ section h3 {
   -webkit-text-decoration-color: #00ffff;
           text-decoration-color: #00ffff;
 }
+section .error {
+  font-size: 500px;
+}
 section .row {
   margin: 1px 10px 12px 10px;
   padding: 30px 10px 0 10px;
