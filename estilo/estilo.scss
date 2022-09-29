@@ -99,8 +99,8 @@ section {
 
     }
 
-    
-    
+
+
 
 
     .row {
@@ -147,20 +147,6 @@ section {
     }
 
 
-    .al {
-
-        background-image: url(../assets/moro/tratamiento-moroccanoil-grande-.jpg);
-        border: 2px solid;
-
-        border-bottom-right-radius: 25px;
-        background-position: center;
-        background-size: cover;
-
-
-        height: 750px;
-
-
-    }
 
     .ar h3 {
         padding-top: 0;
@@ -177,9 +163,12 @@ section {
 
     .nosotros {
         font-weight: bold;
-        padding: 50px 250px 70px 100px;
+        padding: 50px 10px 50px 10px;
+        margin-bottom: 90px;
         font-style: oblique;
         font-size: 20px;
+
+        text-align: center;
 
     }
 
@@ -371,7 +360,8 @@ section {
     textarea:hover {
         background-color: #ad9072;
     }
-    p{
+
+    p {
         margin: 60px;
     }
 
@@ -455,7 +445,7 @@ section {
 footer {
 
     padding: 20px;
-    
+
     min-height: 100px;
     background-color: $color3;
     text-align: center;
