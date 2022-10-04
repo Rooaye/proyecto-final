@@ -16,6 +16,10 @@ $ancho:300%;
 
 $var1: 50%;
 $var2: 100%;
+/*
+html{
+    height: 100%;
+}*/
 
 body {
     min-height: 100%;
@@ -362,7 +366,7 @@ section {
     }
 
     p {
-        margin: 60px;
+        margin-top: 20px;
     }
 
 }
